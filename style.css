@@ -1,0 +1,223 @@
+/*Vermelho*/
+.btn-red {
+    color: rgb(255 255 255);
+    background-color: rgb(185, 28, 28);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+    /*padding: 0.625rem 1.25rem*/
+    margin-right: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    border: none;
+    cursor: pointer;
+}
+
+.btn-red:hover {
+    background-color: rgb(153, 27, 27);
+}
+
+.btn-red:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/*Laranja*/
+.btn-orange {
+    color: rgb(255 255 255);
+    background-color: rgb(249, 115, 22);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+    /*padding: 0.625rem 1.25rem*/
+    margin-right: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    border: none;
+    cursor: pointer;
+}
+
+.btn-orange:hover {
+    background-color: rgb(234, 88, 12);
+}
+
+.btn-orange:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/*Amarelo*/
+.btn-yellow {
+    color: rgb(255 255 255);
+    background-color: rgb(251, 191, 36);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+    /*padding: 0.625rem 1.25rem*/
+    margin-right: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    border: none;
+    cursor: pointer;
+}
+
+.btn-yellow:hover {
+    background-color: rgb(245, 158, 11);
+}
+
+.btn-yellow:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/*Verde*/
+.btn-green {
+    color: rgb(255 255 255);
+    background-color: rgb(4, 120, 87);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+    /*padding: 0.625rem 1.25rem*/
+    margin-right: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    border: none;
+    cursor: pointer;
+}
+
+.btn-green:hover {
+    background-color: rgb(6, 95, 70);
+}
+
+.btn-green:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/*Azul*/
+.btn-blue {
+    color: rgb(255 255 255);
+    background-color: rgb(29, 78, 216);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+    /*padding: 0.625rem 1.25rem*/
+    margin-right: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    border: none;
+    cursor: pointer;
+}
+
+.btn-blue:hover {
+    background-color: rgb(30, 64, 175);
+}
+
+.btn-blue:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/*Roxo*/
+.btn-purple {
+    color: rgb(255 255 255);
+    background-color: rgb(109, 40, 217);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+    /*padding: 0.625rem 1.25rem*/
+    margin-right: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    border: none;
+    cursor: pointer;
+}
+
+.btn-purple:hover {
+    background-color: rgb(91, 33, 182);
+}
+
+.btn-purple:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/*Preto*/
+.btn-black {
+    color: rgb(255 255 255);
+    background-color: rgb(31, 41, 55);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+    /*padding: 0.625rem 1.25rem*/
+    margin-right: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    border: none;
+    cursor: pointer;
+}
+
+.btn-black:hover {
+    background-color: rgb(17, 24, 39);
+}
+
+.btn-black:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/*branco*/
+.btn-white {
+    color: rgb(17, 24, 39);
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    border: 1px rgb(209, 213, 219);
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    padding-top: 0.625rem; /* 10px */
+    padding-bottom: 0.625rem; /* 10px */
+    /*padding: 0.625rem 1.25rem*/
+    margin-right: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    background-color: rgb(243, 244, 246);
+}
+
+.btn-white:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
