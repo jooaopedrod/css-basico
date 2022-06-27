@@ -226,3 +226,35 @@
 .pill{
     border-radius: 9999px;
 }
+
+/*Size*/
+/*extra small*/
+.btn-es{
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+/*small*/
+.btn-s{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+/*regular*/
+.btn-r{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.625rem 1.25rem;
+}
+/*large*/
+.btn-l{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.75rem 1.25rem;
+}
+/*extra large*/
+.btn-el{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.875rem 1.5rem;
+}
+
+
