@@ -221,3 +221,8 @@
     outline: 2px solid transparent;
     outline-offset: 2px;
 }
+
+/*pill button*/
+.pill{
+    border-radius: 9999px;
+}
