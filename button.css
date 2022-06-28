@@ -200,7 +200,7 @@
     background-color: rgb(255, 255, 255);
     font-weight: 500;
     border-radius: 0.5rem;
-    border: 1px rgb(209, 213, 219);
+    border: 1px solid rgb(209, 213, 219);
     font-size: 0.875rem; /* 14px */
     line-height: 1.25rem; /* 20px */
     padding-left: 1.25rem; /* 20px */
@@ -223,38 +223,119 @@
 }
 
 /*pill button*/
-.pill{
+.pill {
     border-radius: 9999px;
 }
 
 /*Size*/
 /*extra small*/
-.btn-es{
+.btn-es {
     font-size: 0.75rem;
     line-height: 1rem;
 }
+
 /*small*/
-.btn-s{
+.btn-s {
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
+
 /*regular*/
-.btn-r{
+.btn-r {
     font-size: 0.875rem;
     line-height: 1.25rem;
     padding: 0.625rem 1.25rem;
 }
+
 /*large*/
-.btn-l{
+.btn-l {
     font-size: 1rem;
     line-height: 1.5rem;
     padding: 0.75rem 1.25rem;
 }
+
 /*extra large*/
-.btn-el{
+.btn-el {
     font-size: 1rem;
     line-height: 1.5rem;
     padding: 0.875rem 1.5rem;
 }
 
+/*outline*/
+.btn-outline-red {
+    background-color: transparent !important;
+    color: rgb(185, 28, 28) !important;
+    border: 1px solid rgb(185, 28, 28);
+}
+
+.btn-outline-red:hover {
+    background-color: rgb(153, 27, 27)!important;
+    color: rgba(255 255 255)!important;
+}
+
+.btn-outline-orange {
+    background-color: transparent !important;
+    color: rgb(249, 115, 22) !important;
+    border: 1px solid rgb(249, 115, 22);
+}
+
+.btn-outline-orange:hover {
+    background-color: rgb(234, 88, 12) !important;
+    color: rgba(255 255 255)!important;
+}
+
+.btn-outline-yellow {
+    background-color: transparent !important;
+    color: rgb(251, 191, 36) !important;
+    border: 1px solid rgb(251, 191, 36);
+}
+
+.btn-outline-yellow:hover {
+    background-color: rgb(245, 158, 11) !important;
+    color: rgba(255 255 255)!important;
+}
+
+.btn-outline-green {
+    background-color: transparent !important;
+    color: rgb(4, 120, 87) !important;
+    border: 1px solid rgb(4, 120, 87);
+}
+
+.btn-outline-green:hover {
+    background-color: rgb(6, 95, 70) !important;
+    color: rgba(255 255 255)!important;
+}
+
+.btn-outline-blue {
+    background-color: transparent !important;
+    color: rgb(29, 78, 216) !important;
+    border: 1px solid rgb(29, 78, 216);
+}
+
+.btn-outline-blue:hover {
+    background-color: rgb(30, 64, 175) !important;
+    color: rgba(255 255 255)!important;
+}
+
+.btn-outline-purple {
+    background-color: transparent !important;
+    color: rgb(109, 40, 217) !important;
+    border: 1px solid rgb(109, 40, 217);
+}
+
+.btn-outline-purple:hover {
+    background-color: rgb(91, 33, 182) !important;
+    color: rgba(255 255 255)!important;
+}
+
+.btn-outline-black {
+    background-color: transparent !important;
+    color: rgb(31, 41, 55) !important;
+    border: 1px solid rgb(31, 41, 55);
+}
+
+.btn-outline-black:hover {
+    background-color: rgb(17, 24, 39) !important;
+    color: rgba(255 255 255)!important;
+}
 
