@@ -1,17 +1,19 @@
-.card{
+.card {
     display: block;
     padding: 1.5rem;
     max-width: 24rem;
     background-color: rgba(255 255 255);
     border-radius: 0.5rem;
     border: 1px solid rgb(229 231 235);
-    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
     text-decoration: none;
 }
-.card:hover{
+
+.card:hover {
     background-color: rgba(243 244 246);
 }
-.card-title{
+
+.card-title {
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -19,13 +21,14 @@
     letter-spacing: -0.025rem;
     color: rgba(17 24 39)
 }
-h5{
+
+h5 {
     margin: 0;
 }
 
-.card-description{
+.card-description {
     font-weight: 400;
-color: rgba(55 65 81);
+    color: rgba(55 65 81);
     margin: 0;
     display: block;
     margin-block-start: 1em;
@@ -33,4 +36,58 @@ color: rgba(55 65 81);
     margin-inline-start: 1px;
     margin-inline-end: 1px;
     line-height: 1.5;
+}
+
+/*Card with button*/
+.card-wbtn {
+    padding: 1.5rem;
+    max-width: 24rem;
+    background-color: rgba(255 255 255);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(229 231 235);
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+
+}
+
+.card-wbtn a{
+    text-decoration: none;
+}
+
+.card-wbtn-tittle {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: rgba(17, 24, 39);
+}
+
+.card-wbtn-description{
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+    color: rgba(55 65 81);
+}
+
+.card-wbtn-btn{
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+text-align: center;
+    color: rgba(255 255 255);
+    background-color: rgba(29 78 216);
+    border-radius: 0.5rem;
+}
+
+.card-wbtn-btn:hover{
+    background-color: rgba(30 64 175);
+}
+.card-wbtn-btn-icon{
+    margin-left: 0.5rem;
+    margin-right: -0.25rem;
+    width: 1rem;
+height: 4rem;
+
 }
