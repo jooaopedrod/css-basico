@@ -1,3 +1,10 @@
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .card {
     display: block;
     padding: 1.5rem;
@@ -22,7 +29,7 @@
     color: rgba(17 24 39)
 }
 
-h5 ,p{
+h5, p {
     margin: 0;
 }
 
@@ -172,7 +179,6 @@ h5 ,p{
 }
 
 
-
 .hz-card-img {
     object-fit: cover;
     width: 100%;
@@ -217,5 +223,126 @@ h5 ,p{
         border-radius: 0;
         border-top-left-radius: 0.5rem;
         border-bottom-left-radius: 0.5rem;
+    }
+}
+
+.price-card {
+    padding: 1rem;
+    max-width: 24rem;/*20rem*/
+    background-color: rgba(255 255 255);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(229 231 235);
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+}
+
+.price-card-title {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: rgba(107 114 128);
+}
+
+.price-card-money {
+    display: flex;
+    align-items: baseline;
+    color: rgba(17, 24, 39);
+}
+
+.price-card-money-symbol {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+
+.price-card-money-value {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.price-card-money-time {
+    margin-left: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    color: rgba(107 114 128);
+}
+
+.price-card-benefits {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.space-y-5 {
+    margin-top: 1.25rem;
+}
+
+.space-x-3 {
+    margin-left: 0.75rem;
+}
+
+.price-card-benefits-available {
+    display: flex;
+
+}
+
+.price-card-benefits-available-icon {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    color: rgba(37 99 235);
+}
+
+.price-card-benefits-available-text {
+    font-size: 1rem;
+    line-height: 1.25;
+    font-weight: 400;
+    color: rgba(107 114 128);
+}
+
+.price-card-benefits-not-available {
+    display: flex;
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(107, 114, 128);
+}
+
+.price-card-benefits-not-available-icon {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    color: rgba(156 163 175);
+}
+
+.price-card-benefits-not-available-text {
+    font-size: 1rem;
+    line-height: 1.25;
+    font-weight: 400;
+    color: rgba(107 114 128);
+}
+
+.price-card-btn {
+    color: rgba(255 255 255);
+    background-color: rgba(28 100 242);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.price-card-btn:hover {
+    background-color: rgba(26 86 219);
+    cursor: pointer;
+}
+
+@media (min-width: 640px) {
+    .price-card {
+        padding: 2rem;
     }
 }
