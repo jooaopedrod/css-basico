@@ -47,7 +47,7 @@
 }
 
 .toast-body button span {
-    clip: rect(0, 0, 0,0);
+    clip: rect(0, 0, 0, 0);
     border-width: 0;
     height: 1px;
     margin: -1px;
@@ -58,7 +58,7 @@
     width: 1px;
 }
 
-.toast-body button svg{
+.toast-body button svg {
     height: 1.25rem;
     width: 1.25rem;
 }
@@ -67,3 +67,222 @@
     color: rgba(17 24 39);
     background-color: rgba(243 244 246);
 }
+
+/*Sucesso*/
+
+.toast-suc-body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    color: rgba(107 114 128);
+    background-color: rgba(255 255 255);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
+    margin-bottom: 1rem;
+}
+
+.toast-suc-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    color: rgb(14, 159, 110);
+    background-color: rgb(222, 247, 236);
+    border-radius: 0.5rem;
+}
+
+.toast-suc-icon-sgv {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.toast-suc-text {
+    margin-left: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.toast-suc-body button {
+    margin: -0.375rem -0.375rem -0.375rem auto;
+    background-color: rgba(255 255 255);
+    color: rgba(156 163 175);
+    border-radius: 0.5rem;
+    padding: 0.375rem;
+    display: inline-flex;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+}
+
+.toast-suc-body button span {
+    clip: rect(0, 0, 0, 0);
+    border-width: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.toast-suc-body button svg {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.toast-suc-body button:hover {
+    color: rgba(17 24 39);
+    background-color: rgba(243 244 246);
+}
+
+/*Perigo*/
+.toast-danger-body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    color: rgba(107 114 128);
+    background-color: rgba(255 255 255);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
+    margin-bottom: 1rem;
+}
+
+.toast-danger-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    color: rgb(240, 82, 82);
+    background-color: rgb(253, 232, 232);
+    border-radius: 0.5rem;
+}
+
+.toast-danger-icon-sgv {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.toast-danger-text {
+    margin-left: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.toast-danger-body button {
+    margin: -0.375rem -0.375rem -0.375rem auto;
+    background-color: rgba(255 255 255);
+    color: rgba(156 163 175);
+    border-radius: 0.5rem;
+    padding: 0.375rem;
+    display: inline-flex;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+}
+
+.toast-danger-body button span {
+    clip: rect(0, 0, 0, 0);
+    border-width: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.toast-danger-body button svg {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.toast-danger-body button:hover {
+    color: rgba(17 24 39);
+    background-color: rgba(243 244 246);
+}
+
+
+/*Atenção*/
+.toast-warning-body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    color: rgba(107 114 128);
+    background-color: rgba(255 255 255);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
+    margin-bottom: 1rem;
+}
+
+.toast-warning-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    color: rgb(245, 158, 11);
+    background-color: rgb(254, 243, 199);
+    border-radius: 0.5rem;
+}
+
+.toast-warning-icon-sgv {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.toast-warning-text {
+    margin-left: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.toast-warning-body button {
+    margin: -0.375rem -0.375rem -0.375rem auto;
+    background-color: rgba(255 255 255);
+    color: rgba(156 163 175);
+    border-radius: 0.5rem;
+    padding: 0.375rem;
+    display: inline-flex;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+}
+
+.toast-warning-body button span {
+    clip: rect(0, 0, 0, 0);
+    border-width: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.toast-warning-body button svg {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.toast-warning-body button:hover {
+    color: rgba(17 24 39);
+    background-color: rgba(243 244 246);
+}
+
