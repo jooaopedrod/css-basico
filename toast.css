@@ -286,3 +286,100 @@
     background-color: rgba(243 244 246);
 }
 
+/*toast mensagem*/
+.toast-msg-body {
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    color: rgba(107 114 128);
+    background-color: rgba(255 255 255);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
+
+}
+
+.toast-msg-content {
+    display: flex;
+}
+
+.toast-msg-content img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    max-width: 100%;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
+}
+
+.toast-msg-content div {
+    margin-left: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.toast-msg-content div span {
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: rgba(17 24 39);
+}
+
+.toast-msg-content div div {
+    margin-bottom: 0.5rem;
+    margin-left: 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.toast-msg-content div a {
+    display: inline-flex;
+    padding: 0.375rem 0.625rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(255 255 255);
+    background-color: rgba(28 100 242);
+    border-radius: 0.5rem;
+}
+
+.toast-msg-content div a:hover {
+    background-color: rgba(26 86 219);
+    text-decoration: none;
+}
+
+.toast-msg-content button {
+    margin: -0.375rem -0.375rem -0.375rem auto;
+    background-color: rgba(255 255 255);
+    color: rgba(156 163 175);
+    border-radius: 0.5rem;
+    padding: 0.375rem;
+    display: inline-flex;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+}
+
+.toast-msg-content button:hover {
+    color: rgba(17 24 39);
+    background-color: rgba(243 244 246);
+}
+
+.toast-msg-content button span {
+    clip: rect(0, 0, 0, 0);
+    border-width: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.toast-msg-content button svg {
+    height: 1.25rem;
+    width: 1.25rem;
+}
