@@ -1,0 +1,129 @@
+button{
+    font-size: 1rem;
+    background-color: transparent;
+}
+a{
+    color: rgba(28 100 242);
+    text-decoration: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+
+.accordion-btn-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    width: 100%;
+    font-weight: 500;
+    text-align: left;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    border: 1px solid rgba(229 231 235);
+    color: rgba(107 114 128);
+}
+
+accordion-btn-top:hover {
+    background-color: rgba(243 244 246);
+}
+
+.icon-1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}
+
+.d-hidden {
+    display: none;
+}
+
+.accordion-body-top {
+    padding: 1.25rem;
+    border: 1px solid rgba(229 231 235);
+    border-bottom-width: 0;
+}
+
+.accordion-top-text1 {
+    margin-bottom: 0.5rem;
+    color: rgba(107 114 128);
+}
+
+.accordion-top-text2 {
+    color: rgba(107 114 128);
+}
+
+.accordion-btn-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    width: 100%;
+    font-weight: 500;
+    text-align: left;
+    border: 1px solid rgba(229 231 235);
+    border-bottom-width: 0;
+    color: rgba(107 114 128);
+}
+
+.accordion-btn-middle:hover {
+    background-color: rgba(243 244 246);
+}
+
+.accordion-body-middle{
+    padding: 1.25rem;
+    border: 1px solid rgba(229 231 235);
+    border-bottom-width: 0;
+}
+
+.accordion-middle-text1 {
+    margin-bottom: 0.5rem;
+    color: rgba(107 114 128);
+}
+
+.accordion-middle-text2 {
+    color: rgba(107 114 128);
+}
+
+.accordion-btn-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    width: 100%;
+    font-weight: 500;
+    text-align: left;
+    border: 1px solid rgba(229 231 235);
+    color: rgba(107 114 128);
+}
+
+.accordion-btn-bottom:hover {
+    background-color: rgba(243 244 246);
+}
+
+.accordion-body-bottom {
+    padding: 1.25rem;
+    border: 1px solid rgba(229 231 235);
+    border-top-width: 0;
+}
+
+.accordion-bottom-text1 {
+    margin-bottom: 0.5rem;
+    color: rgba(107 114 128);
+}
+
+.accordion-bottom-ul{
+    padding-left: 1.25rem;
+    list-style-type: disc;
+    color: rgba(107 114 128);
+}
+
+.accordion-bottom-ul li a{
+    color: rgba(28 100 242);
+}.accordion-bottom-ul li a:hover{
+    text-decoration: underline;
+}
